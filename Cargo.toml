@@ -1,0 +1,7 @@
+[package]
+name = "ternary-intent-cache"
+version = "0.1.0"
+edition = "2021"
+description = "Cache for intent→bytecode compilations. When the same intent is expressed repeatedly, return the cached Flux bytecode. LRU eviction with TTL."
+license = "Apache-2.0"
+repository = "https://github.com/SuperInstance/ternary-intent-cache"
